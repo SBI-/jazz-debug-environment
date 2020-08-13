@@ -39,7 +39,7 @@ public class InfoTask extends DefaultTask {
     RuntimeDetector.getRuntimes().forEach(System.out::println);
     System.out.println("Available plugins:");
     ConfigReader.userConfiguration().forEach(System.out::println);
-    System.out.println("Known JTS locations::");
+    System.out.println("Known JTS locations:");
     ConfigReader.readConfig(FileTools.toAbsolute("jde/user/jts_locations.cfg"))
         .map(s -> "\t" + s)
         .forEach(System.out::println);
