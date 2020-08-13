@@ -42,5 +42,6 @@ public class BootStrapTask extends DefaultTask {
     FileTools.copyFile("tool/templates/eclipse-proxy.ini", "jde/user/");
     FileTools.copyFile("tool/templates/java_command.cfg", "jde/user/");
     FileTools.copyFile("tool/templates/workspaces_template.cfg", "jde/user/workspaces");
+    FileTools.copyFile("tool/templates/jts_locations.cfg", "jde/user/");
   }
 }
